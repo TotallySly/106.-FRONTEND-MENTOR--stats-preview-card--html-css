@@ -2,11 +2,26 @@
 
 /* font-family: 'Inter', sans-serif; */
 
+/* 
+var(---primary--main-background);
+var(---primary--card-background);
+var(---primary--soft-violet);
+var(---neutral--main-paragraph);
+var(---neutral--main-paragraph);
+var(---neutral--stats-heading);
+
+ */
+
 :root {
     font-size: 62.5%;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    ---primary--main-background: hsl(233, 47%, 7%);
+    ---primary--card-background: hsl(244, 38%, 16%);
+    ---primary--soft-violet: hsl(277, 64%, 61%);
+    ---neutral--main-paragraph: hsla(0, 0%, 100%, 0.75);
+    ---neutral--stats-heading: hsla(0, 0%, 100%, 0.6);
 }
 
 body {
