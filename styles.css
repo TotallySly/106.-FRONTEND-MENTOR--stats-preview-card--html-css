@@ -34,6 +34,21 @@ body {
     min-height: 100vh;
     overflow: hidden;
     margin: 0;
+    background-color: var(---primary--main-background);
+}
+
+.card-container {
+    background-color: var(---primary--card-background);
+    text-align: center;
+    max-width: 25rem;
+    border-radius: 10px 10px 10px 10px;
+}
+
+TODO
+/* BACKGROUND IMAGE URL FIX WITH PURPLE OVERLAY COLOR*/
+
+.hero-image {
+    background: url('images/image-header-mobile.jpg') 0 0 no-repeat fixed;
 }
 
 .attribution {
