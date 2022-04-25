@@ -48,7 +48,7 @@ TODO
 /* BACKGROUND IMAGE URL FIX WITH PURPLE OVERLAY COLOR*/
 
 .hero-image {
-    background: url('images/image-header-mobile.jpg') 0 0 no-repeat fixed;
+    background: url('./images/image-header-mobile.jpg');
 }
 
 .attribution {
