@@ -44,11 +44,11 @@ body {
     border-radius: 10px 10px 10px 10px;
 }
 
-TODO
-/* BACKGROUND IMAGE URL FIX WITH PURPLE OVERLAY COLOR*/
+/*            TODO        BACKGROUND IMAGE URL FIX WITH PURPLE OVERLAY COLOR*/
 
 .hero-image {
-    background: url('./images/image-header-mobile.jpg');
+    height: 500px;
+    background-image: url('/images/image-header-mobile.jpg');
 }
 
 .attribution {
