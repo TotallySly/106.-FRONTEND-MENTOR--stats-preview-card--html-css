@@ -7,7 +7,6 @@ var(---primary--main-background);
 var(---primary--card-background);
 var(---primary--soft-violet);
 var(---neutral--main-paragraph);
-var(---neutral--main-paragraph);
 var(---neutral--stats-heading);
 
  */
@@ -55,6 +54,7 @@ body {
     background-position: center top;
     background-size: contain;
     background-repeat: no-repeat;
+    border-radius: 10px 10px;
 }
 
 .overlay {
@@ -64,6 +64,19 @@ body {
     opacity: 0.6;
     position: absolute;
     bottom: 8%;
+    border-radius: 10px 10px;
+}
+
+.text-container {
+    text-align: center;
+}
+
+.text-container h1 {
+    color: var(---neutral--main-paragraph);
+}
+
+.text-container span {
+    color: var(---primary--soft-violet);
 }
 
 .attribution {
