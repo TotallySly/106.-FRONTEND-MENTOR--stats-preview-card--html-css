@@ -44,15 +44,17 @@ body {
     border-radius: 10px 10px 10px 10px;
 }
 
-/*            TODO        BACKGROUND IMAGE URL FIX WITH PURPLE OVERLAY COLOR*/
-
 .hero-image {
     height: 20rem;
     background-image: url('/images/image-header-mobile.jpg');
     background-position: center top;
     background-size: contain;
     background-repeat: no-repeat;
-    position: relative;
+}
+
+/*            TODO        Create overlay color*/
+
+.overlay {
 }
 
 .attribution {
