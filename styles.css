@@ -47,8 +47,12 @@ body {
 /*            TODO        BACKGROUND IMAGE URL FIX WITH PURPLE OVERLAY COLOR*/
 
 .hero-image {
-    height: 500px;
+    height: 20rem;
     background-image: url('/images/image-header-mobile.jpg');
+    background-position: center top;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: relative;
 }
 
 .attribution {
