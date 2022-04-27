@@ -82,13 +82,15 @@ body {
 }
 
 .text-container p {
-    font-size: 1.2rem;
+    font-size: 1.3rem;
+    line-height: 1.5;
     color: var(---neutral--stats-heading);
-    padding-left: 2rem;
-    padding-right: 2rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
 }
 
-.stats-container {
+.stats-heading {
+    color: var(---neutral--main-paragraph);
 }
 
 .attribution {
