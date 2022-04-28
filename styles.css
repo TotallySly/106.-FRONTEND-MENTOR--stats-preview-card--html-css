@@ -114,10 +114,20 @@ body {
 @media screen and (min-width: 768px) {
     .card-container {
         display: flex;
-        max-width: 300rem;
+    }
+
+    .text-container {
+        display: flex;
+        flex-direction: column;
     }
 
     .stats-container {
         display: flex;
+        justify-content: space-around;
+    }
+
+    .stat-container-desktop {
+        display: flex;
+        flex-direction: column;
     }
 }
