@@ -114,6 +114,19 @@ body {
 @media screen and (min-width: 768px) {
     .card-container {
         display: flex;
+        flex-direction: row-reverse;
+    }
+
+    .hero-image-container {
+        width: 50rem;
+    }
+
+    .hero-image {
+        width: 50rem;
+    }
+
+    .overlay {
+        width: 40rem;
     }
 
     .text-container {
