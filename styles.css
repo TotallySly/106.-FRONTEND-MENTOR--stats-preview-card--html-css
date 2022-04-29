@@ -59,7 +59,7 @@ body {
 
 .overlay {
     width: 100%;
-    height: 91.9%;
+    height: 18.4rem;
     background: var(---primary--soft-violet);
     opacity: 0.6;
     position: absolute;
@@ -124,11 +124,16 @@ body {
     }
 
     .hero-image {
-        width: 90vw;
+        height: 100%;
+        width: 50rem;
+        background-image: url('/images/image-header-mobile.jpg');
+        border-radius: 0px 10px 10px 0;
     }
 
     .overlay {
         max-width: 90vw;
+        bottom: 0%;
+        border-radius: 0px 10px 10px 0;
     }
 
     .text-container {
