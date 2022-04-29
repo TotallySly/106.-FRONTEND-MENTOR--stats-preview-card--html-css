@@ -115,18 +115,20 @@ body {
     .card-container {
         display: flex;
         flex-direction: row-reverse;
+        max-width: 100rem;
+        height: 40vh;
     }
 
     .hero-image-container {
-        width: 50rem;
+        max-width: 50%;
     }
 
     .hero-image {
-        width: 50rem;
+        width: 90vw;
     }
 
     .overlay {
-        width: 40rem;
+        max-width: 90vw;
     }
 
     .text-container {
